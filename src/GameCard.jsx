@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API_KEY = "9c2d37cb96d34695b64f444f7a0ec338n"; // Replace with your RAWG API key
+const API_KEY = "9c2d37cb96d34695b64f444f7a0ec338"; // Replace with your RAWG API key
 const API_URL = `https://api.rawg.io/api/games?key=${API_KEY}`;
 const GameCards = () => {
   const [games, setGames] = useState([]);
